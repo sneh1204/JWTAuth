@@ -35,6 +35,6 @@ Using JWT and Express JS, Created a Profile Authentication App for Android. Proj
 Base URL - > https://mysterious-beach-05426.herokuapp.com/
 
 * **POST** - auth/login - Authenticates a User and returns JWT Token. `Parameters - email, pass. (urlencoded)`
-* **POST** - auth/register - Registers a User profile and return JWT Token. `Parameters - email, pass, fullname, address, age, weight. (urlencoded)`
+* **POST** - auth/signup2 - Registers a User profile and return JWT Token. `Parameters - email, pass, fullname, address, age, weight. (urlencoded)`
 * **GET** - profile/view - View your User profile. `Headers - Your valid unexpired JWT Token.`
 * **POST** - profile/update - Updates your User profile. `Headers - Your valid unexpired JWT Token. Parameters - email, fullname, address, age, weight. (urlencoded)`
